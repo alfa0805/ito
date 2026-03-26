@@ -1,6 +1,118 @@
-header{
-    background-image: url();
-    height: 100dvh;
-    
+.header{
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/938800262/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D1%80%D0%B0%D0%BC%D0%B0%D0%B4%D0%B0%D0%BD-%D0%BA%D0%B0%D1%80%D0%B8%D0%BC-%D1%84%D0%BE%D0%BD%D0%B0%D1%80%D1%8C-%D1%80%D0%B5%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%BD%D0%B0%D0%B2%D0%B5%D1%81.jpg?s=612x612&w=0&k=20&c=fz2xSGiuz0Cemp7QACMwZIoYPuIYfXs3decaiemM47o=);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.container{
+    display: flex;
+    width: 1138px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header--logo{
+    display: flex;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.header--list{
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  
+}
+.header--link{
+    padding: 0;
+    color: white;
+    font-size: 15px;
+}
+.header--link1{
+    color: white;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.header--icon{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 40px;
+    height: 30px;
 }
 
+.header--img{
+width: 19px;
+height: 25px
+
+}
+.header--logotext{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.header--logotext{
+    color: white;
+}
+.header--iconsavat{
+    color: white;
+    padding-left: -100px;
+}
+.header--box{
+    color: white;
+    margin-top: 300px;
+    margin-left: -1230px;
+}
+.header--boxitem{
+    font-size: 50px;
+}
+.header--box-btn{
+    width: 178px;
+    height: 54px;
+    margin-top: 40px;
+    background: #FF8531;
+    border: none;
+    border-radius: 5px;
+}
+.header--section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.header--main{
+    background-image: url(/header.images/rasim1.jpg);
+    width: 555px;
+    height: 297px;
+    background-size: cover;
+}
+
+.header--main1{
+    margin-top: 80px;
+    margin-left: 280px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 2;
+}
+
+.header--main2{
+    background-image: url(/header.images/rasim2.jpg);
+    width: 555px;
+    height: 297px;
+    background-size: cover;
+}
+.header--main3{
+    margin-top: 80px;
+    margin-left: 280px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 2;
+}

@@ -1,8 +1,8 @@
-.bi-main{
-    background-color: darkgrey;
-}
+/* .bi-main{
+    
+} */
 .bi-container{
-    width: 1142px;
+    width: 1138px;
 height: 598px;
 opacity: 1;
 border-width: 1px;
@@ -122,10 +122,10 @@ letter-spacing: 0%;
 
 }
 
-/* .bi-body {
+.bi-body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
+}
 
 .bi-hero-banner {
     background-image: url('/images-bi/lampa.3png'); 
