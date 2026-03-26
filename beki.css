@@ -11,6 +11,15 @@ gap: 100px;
 position: relative;
 padding: 20px 20px;
 }
+@media (max-width:1297px){
+    
+    .bi-rasmm{
+        display: none;
+    }
+    .bi-btnn{
+        display: none;
+    }
+}
 .bi-main-logo h1{
     font-family: "Noto Serif JP";
 font-weight: 500;
@@ -30,8 +39,14 @@ color: #FFFFFF;
 opacity: 0.7;
 }
 .bi-wrap{
+    width: 550px;
     display: flex;
     gap: 20px;
+}
+@media (max-width:624px){
+    .bi-wrap{
+        display: block;
+    }
 }
 .bi-rasmm{
     width: 555px;
@@ -42,6 +57,19 @@ top: 10px;
 left: 733px;
 
 }
+.bi-card1 h2{
+    font-family:"Noto Serif JP";
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+}
+.bi-card1{
+    padding-top: 100px; 
+}
+
 .bi-btnn{
     position: absolute;
     left:900px;
@@ -54,6 +82,8 @@ color: #FF8531;
 }
 .bi-card{
     padding-top: 100px;
+    width: 262px;
+    height:400px ;
     
 }
 .bi-card h2{
