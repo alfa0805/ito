@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(15, 13, 13);
+}
+.bahrom-wrapper{
+    display: flex;
+    gap: 30px;
+    padding-top: 51px;
+}
+.bahrom-title{
+    width: 191px;
+    height: 37px;
+    padding-left:500px;
+    white-space: nowrap;
+    font-family: Noto Serif JP;
+    font-weight: 500px;
+    font-size: 37.9px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.bahrom-card-title{
+    width: 210px;
+    height: 23px;
+    margin-top:28px;
+    font-family: Noto Serif JP;
+    font-weight: 500px;
+    font-size: 22px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.bahrom-text{
+    width: 363px;
+    height: 67px;
+    margin-top:20px;
+    left: 231px;
+    opacity: 0.7;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.bahrom-link{
+    width: 92px;
+    height: 20px;
+    padding-top:43px;
+    margin-top:10px;
+    display: inline-block;
+    opacity: 0.9;
+    font-family: Roboto Slab;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(255, 133, 49, 1);
+}
+.bahrom-card{
+    height: 452px;
+}
+.bahrom-update-text{
+    padding: 20px 0px;
+    width:350px;
+}
+.bahrom-update-card{
+    display: flex;
+    margin-top:100px;
+    padding-top:100px;
+    justify-content: space-between;
+    width: 1140px;
+    height: 150px;
+    left: 230px;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 1;
+    background: rgba(255, 133, 49, 1);
+}
+.bahrom-update-content{
+    width: 187px;
+    height: 23px;
+    left: 270px;
+    padding: 20px;
+    size:30px;
+    line-height:20px;
+    margin-bottom:150px;
+    margin-left: 20px;
+    font-family: Noto Serif JP;
+    color: rgba(255, 255, 255, 1);
+}
+.bahrom-input-group{
+    background: rgba(255, 255, 255, 1);
+}
+.bahrom-update-input-group{
+    border: 2px solid;
+    margin-bottom: 95px;
+    background:linear-gradient(to left,rgb(253, 238, 238) 10%) ;
+    border: none;
+    border-radius:5px;
+}
+.bahrom-update-form{
+    padding-right:50px;
+}
+.bahrom-update-input{
+    width: 440px;
+    height: 60px;
+    align-items: center;
+    flex-grow:1;
+    border-radius:5px;
+    border-width: 1px;
+    border:none;
+
+}
+.bahrom-update-submit-btn{
+    width:80px;
+    background:rgb(249, 250, 252);
+    border:none;
+}
+
+
+
